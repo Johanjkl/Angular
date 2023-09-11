@@ -1,0 +1,8 @@
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)= "navegar ('input')">input</button>
+  <button mat-menu-item (click)= "navegar ('progress')">Progress Bar</button>
+  <button mat-menu-item (click)= "navegar ('slide')">Slide Toggle</button>
+  <button mat-menu-item (click)= "navegar ('spinner')">Progress Spinner</button>
+  <button mat-menu-item (click)= "navegar ('observable')">Observable</button>
+</mat-menu>
